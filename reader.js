@@ -288,7 +288,7 @@ const Reader = (output, macroConstructors = [QuoteMacro, LambdaMacro]) => {
         if (toker.peek().delim === END_LIST) {
           toker.next();
           decDepth();
-          output({ list });
+          output(List(list));
         } else {
           switchTo(formReader(addItem));
         }
