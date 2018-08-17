@@ -54,7 +54,7 @@ const ProcStream = (procNext, procHasNext) => {
 
     return procStream;
   } else {
-    let cached;
+    let cached = Nil;
 
     const procStream = {
       next: () => {
