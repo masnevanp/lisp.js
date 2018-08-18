@@ -1,5 +1,6 @@
 # lisp.js
 A simple LISP interpreter implemented in JavaScript (Node). Heavily inspired by Scheme and Clojure.
+Only interactive mode (REPL) currently supported.
 
 
 ## To run:
